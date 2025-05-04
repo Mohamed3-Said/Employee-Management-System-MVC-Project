@@ -1,0 +1,84 @@
+﻿body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #4b0082; /* بنفسجي غامق */
+}
+
+.wrapper {
+    padding: 60px 0;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.main-agileinfo {
+    background: #e6ccff; /* بنفسجي فاتح */
+    width: 30%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+}
+
+.agileits-top form {
+    display: flex;
+    flex-direction: column;
+}
+
+input.text {
+    margin: 10px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #ffffff;
+    color: #2c3e50;
+    font-size: 16px;
+}
+
+    input.text:focus {
+        outline: none;
+        background: #ffffff;
+    }
+
+input[type="submit"] {
+    background: #7a0be4; /* بنفسجي أغمق للزر */
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+    input[type="submit"]:hover {
+        background: #9d4edd;
+    }
+
+.wthree-text {
+    margin-top: 15px;
+    color: #4b0082;
+}
+
+    .wthree-text label {
+        cursor: pointer;
+    }
+
+p {
+    color: #4b0082;
+    margin-top: 20px;
+}
+
+    p a {
+        color: #7a0be4;
+        text-decoration: none;
+    }
+
+        p a:hover {
+            text-decoration: underline;
+        }
